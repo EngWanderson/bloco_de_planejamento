@@ -1,0 +1,32 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 1em;
+}
+
+.list{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.item{
+  margin: 1em;
+
+
+}
+.item a{
+  color: #fff;
+  text-decoration: none;
+}
+/*holver quando passa o mouse por cima*/
+.item a:hover{
+color: #FFBB33;
+border-style: solid;
+border-color: #fff;
+}
+.item a:focus{
+  color: #FFBB33;
+
+ 
+}
